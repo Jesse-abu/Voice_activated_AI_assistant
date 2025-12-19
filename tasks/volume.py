@@ -10,6 +10,6 @@ def volume():
     volume = cast(interface, POINTER(IAudioEndpointVolume))
 
     volume.SetMasterVolumeLevel(-40.0, None)
-    playsound.playsound('Huit_octobre_1971.mp3')
+    playsound.playsound('audio_file')
     time.sleep(4)
 
