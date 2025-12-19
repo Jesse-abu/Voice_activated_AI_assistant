@@ -1,0 +1,14 @@
+git push --force origin main
+
+# ignore secret files
+api_key
+search_id
+.env
+
+# ignore specific document
+bartholemew.docx
+
+# optional helpful patterns
+# ignore any file with "key" or "secret" in the name
+# *key*
+# *secret*
